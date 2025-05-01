@@ -1,13 +1,12 @@
-# setup.py
-from setuptools import setup
-from torch.utils.cpp_extension import BuildExtension, CppExtension # Use CppExtension, PyTorch handles CUDA details
+
+from torch.utils.cpp_extension import BuildExtension, CppExtension 
 
 setup(
-    name='transformer_block_cpp',  # Name of the Python package
+    name='transformer_block_cpp',  
     ext_modules=[
         CppExtension(
-            'transformer_block_cpp', # Must match the name passed to PYBIND11_MODULE
-            ['transformer_block.cu'] # Source file (can be .cpp or .cu)
+            'transformer_block_cpp',
+            ['transformer_block.cu'] 
         )
     ],
     cmdclass={
@@ -15,4 +14,4 @@ setup(
     })
 
 # Command to build: python setup.py install
-# Or for development: python setup.py build_ext --inplace
+
