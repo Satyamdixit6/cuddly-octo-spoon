@@ -1,0 +1,4 @@
+# ninja log v5
+1	78958	1744828174440041191	/home/satyam/Music/transformer/simpleLLM/build/temp.linux-x86_64-cpython-312/transformer.o	8f92bf3112576097
+0	181476	1744828276976536688	/home/satyam/Music/transformer/simpleLLM/build/temp.linux-x86_64-cpython-312/attention.o	7cd0c271c892cdaf
+1	181609	1744828277109533591	/home/satyam/Music/transformer/simpleLLM/build/temp.linux-x86_64-cpython-312/moe.o	77db8e4e3f0faeef
