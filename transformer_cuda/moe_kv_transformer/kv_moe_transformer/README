@@ -1,25 +1,15 @@
-# Transformer Model with CUDA
-
-[![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0-orange)](https://pytorch.org)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
-
+Transformer Model with CUDA
 A lightweight transformer model with custom CUDA kernels for grouped query attention and mixture of experts (MoE), built using PyTorch Lightning.
-
-## Features
-
+Features
 - Transformer with grouped query attention and MoE
 - CUDA-accelerated operations (`transformer_cuda.cu`)
 - Key-value caching for efficient inference
 - Tests for overfitting, KV cache, and variable inputs
 - PyTorch Lightning for streamlined training
 
-## Setup
 
-1. **Clone the repo**:
-   ```bash
-   git clone https://github.com/your-username/transformer-cuda.git
-   cd transformer-cuda
+git clone https://github.com/your-username/transformer-cuda.git
+cd transformer-cuda
 
 Install dependencies:
 bash
