@@ -8,7 +8,7 @@ Features
 - PyTorch Lightning for streamlined training
 
 
-git clone https://github.com/your-username/transformer-cuda.git
+git clone https://github.com/Satyamdixit6/cuddly-octo-spoon/tree/main/transformer_cuda/moe_kv_transformer/kv_moe_transformer
 cd transformer-cuda
 
 Install dependencies:
