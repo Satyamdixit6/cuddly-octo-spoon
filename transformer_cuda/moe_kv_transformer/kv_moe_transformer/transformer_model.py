@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import pytorch_lightning as L
 
-# Assuming these are defined elsewhere in your code
+
 class InputProcessing(nn.Module):
     def __init__(self, vocab_size, embed_dim):
         super().__init__()
