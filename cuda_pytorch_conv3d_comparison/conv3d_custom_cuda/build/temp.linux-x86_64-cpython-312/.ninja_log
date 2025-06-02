@@ -1,0 +1,3 @@
+# ninja log v5
+1	742	1748866291221646935	/home/satyam/Videos/empty/cuda_pytorch_conv3d_comparison/conv3d_custom_cuda/build/temp.linux-x86_64-cpython-312/conv3d_cuda_kernel.o	35f856e6e1a8e90
+0	15906	1748866306370549698	/home/satyam/Videos/empty/cuda_pytorch_conv3d_comparison/conv3d_custom_cuda/build/temp.linux-x86_64-cpython-312/conv3d_cuda.o	42eb8f643db9a3ca
